@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body > header{
+        background-color:rgb(163, 199, 109);
+        padding: 20px 0 ;
+        color:rgb(22, 22, 22)
+                
+             
+}
+
+h1{
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    
+}
+
+.sovem{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 35px;
+}
+.sovem2{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40px;
+}
+
+.image-container1{
+
+    text-align:right;
+
+  }
+
+
+header li a{
+            color: rgb(10, 10, 10);
+            text-decoration: none;
+            font-size: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header .container{
+                    display: flex;
+                    align-items: center;
+                    justify-content:space-between;
+
+}
+
+
+header li {
+            display: inline;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            margin-left: 16px;
+            
+        }
+
+.container{
+            width: 1366px;
+            margin: 0 auto;
+
+ }
+  
+ .article{
+         display: flex;
+         flex-wrap: wrap ;
+         justify-content:space-between;
+
+                  
+ }
+
+ .article article img{
+       /*   height: 180px;*/
+       width: 100%;
+ }
+
+ .article article{
+            width: 30%;
+ }
+
+ section {
+        padding: 17px 0;
+ }
+ section{
+        margin-bottom: 16px;
+ }
+
+ section h2, 
+ .article article {
+    margin-bottom: 16px;
+}
+
+.article article h3 {
+                margin-top: 15px;
+                margin-bottom: 15px;
+                           
+}
+
+.article article a {
+                    background-color:blue;
+                    color: aliceblue;
+                    padding: 8px;
+                    display: inline-block;
+                    text-decoration: none;
+                    font-weight:bolder;
+                    margin-top: 8px;
+
+}
+.article article a:hover{
+        text-decoration: underline;
+    }
+
+
+.article article p,
+.article article a {
+                  font-family: Arial, Helvetica, sans-serif;
+}
+
+.article article h3 {
+                    font-size: 24px;
+}
+
+section h2{
+            font-size: 32px;
+}
+
+#Tecnologia {
+            background-color:rgba(228, 64, 127, 0.1) ;
+}
+#Tecnologia .article article a {
+          background-color:rgba(35, 235, 35, 0.8) ;
+          color:black;
+}
+#Tecnologia .article article a{
+          background-color: #ab92cc;   
+}
+
+#Clima {
+    background-color:rgb(240, 223, 202)
+}
+#Clima .article article a {
+    background-color:rgb(187, 148, 97)
+
+}
